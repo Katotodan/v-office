@@ -68,14 +68,14 @@ export const Navbar = () => {
     
   return (
     <header className='flex justify-between h-20 bg-sky-50 items-center px-4 text-xl lg:px-8 xl:px-16 xl:gap-10
-    dark:bg-[#072841] dark:text-white'
+    dark:bg-[#072841] dark:text-white overflow-x-hidden'
       role="navigation"
       aria-label="Main Navigation"
     >
         {/* Logo */}
         <div className='flex items-center gap-2'> 
             <Link to='/dashboard'>
-                <img src={logo} alt="V-Office logo" className='w-15 h-15 rounded-full' />
+                <img src={logo} alt="V-Office logo" className='w-10 h-10 md:w-15 md:h-15 rounded-full' />
             </Link>
             <h1 className="font-semibold">V-Office</h1>
         </div>
@@ -96,7 +96,7 @@ export const Navbar = () => {
                     className="w-15 h-15 flex items-center justify-center text-gray-700 dark:text-[#eee] focus:outline-none cursor-pointer"
                     ref={avatarButtonRef}
                     >
-                    <FaUserCircle className="w-10 h-10"/>
+                    <FaUserCircle className="w-10 h-10 md:w-15 md:h-15"/>
                     </button>
                 </li>
             </ul>
