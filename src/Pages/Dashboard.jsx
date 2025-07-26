@@ -1,7 +1,7 @@
 import {Navbar} from '../Components/Navbar';
 import { WelcomeBanner } from '../Components/WelcomeBanner';
-import {SearchBar} from '../Components/SearchBar';
-import {DashboardCards} from '../Components/DashboardCards';
+import { SearchBar } from '../Components/Searchbar';
+import { DashboardCards } from '../Components/DashboardCards';
 import { Footer } from '../Components/Footer';
 
 export default function Dashboard() {
