@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Weekly Standup Meeting",
+    "date": "2025-07-26T09:00:00Z",
+    "location": "Conference Room A",
+    "description": "A short meeting to sync on weekly progress and blockers.",
+    "type": "meeting"
+  },
+  {
+    "id": 2,
+    "title": "UX Design Workshop",
+    "date": "2025-07-27T13:00:00Z",
+    "location": "Zoom",
+    "description": "Interactive session on improving user journey mapping.",
+    "type": "training"
+  },
+  {
+    "id": 3,
+    "title": "Team Lunch",
+    "date": "2025-07-28T12:00:00Z",
+    "location": "Roof Garden",
+    "description": "Monthly lunch for team bonding and casual catch-up.",
+    "type": "social"
+  },
+  {
+    "id": 4,
+    "title": "Marketing Strategy Presentation",
+    "date": "2025-07-29T15:00:00Z",
+    "location": "Main Auditorium",
+    "description": "Marketing team will present their strategy for Q4.",
+    "type": "presentation"
+  },
+  {
+    "id": 5,
+    "title": "Security Training",
+    "date": "2025-07-30T10:30:00Z",
+    "location": "Training Room 2",
+    "description": "Mandatory cybersecurity training for all staff.",
+    "type": "training"
+  },
+  {
+    "id": 6,
+    "title": "New Product Demo",
+    "date": "2025-08-01T14:00:00Z",
+    "location": "Online - Teams",
+    "description": "Live demo of our new product line and upcoming features.",
+    "type": "demo"
+  },
+  {
+    "id": 7,
+    "title": "Quarterly Town Hall",
+    "date": "2025-08-02T16:00:00Z",
+    "location": "Main Auditorium",
+    "description": "Company-wide update from the executive team.",
+    "type": "company"
+  },
+  {
+    "id": 8,
+    "title": "Hackathon Kickoff",
+    "date": "2025-08-05T09:00:00Z",
+    "location": "Open Space Area",
+    "description": "Start of the 48-hour internal hackathon event.",
+    "type": "hackathon"
+  },
+  {
+    "id": 9,
+    "title": "Client Onboarding Webinar",
+    "date": "2025-08-07T11:00:00Z",
+    "location": "Zoom",
+    "description": "Webinar for onboarding new enterprise clients.",
+    "type": "webinar"
+  },
+  {
+    "id": 10,
+    "title": "Wellness Check-In",
+    "date": "2025-08-09T10:00:00Z",
+    "location": "HR Office",
+    "description": "One-on-one optional check-ins with HR for employee wellness.",
+    "type": "wellness"
+  }
+]

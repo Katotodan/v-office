@@ -1,0 +1,26 @@
+@import "tailwindcss";
+/* Optional custom overrides */
+@layer base {
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
+}
+
+body{
+  display: stiky;
+  width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+body {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}

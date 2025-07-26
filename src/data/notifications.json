@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Maintenance Alert",
+    "message": "The system will undergo maintenance on July 28th from 1AM to 3AM.",
+    "date": "2025-07-24T09:00:00Z",
+    "type": "alert"
+  },
+  {
+    "id": 2,
+    "title": "New Feature Released",
+    "message": "Dark mode is now available under user settings.",
+    "date": "2025-07-23T15:30:00Z",
+    "type": "update"
+  },
+  {
+    "id": 3,
+    "title": "Team Meeting Reminder",
+    "message": "Quarterly team meeting scheduled for Friday at 10 AM in Conference Room B.",
+    "date": "2025-07-22T08:45:00Z",
+    "type": "reminder"
+  },
+  {
+    "id": 4,
+    "title": "Bug Fixes Deployed",
+    "message": "Issues with the notification bell and user avatars have been fixed.",
+    "date": "2025-07-21T17:10:00Z",
+    "type": "update"
+  },
+  {
+    "id": 5,
+    "title": "Security Notice",
+    "message": "Please reset your password as part of our annual security audit.",
+    "date": "2025-07-20T11:00:00Z",
+    "type": "alert"
+  },
+  {
+    "id": 6,
+    "title": "Office Closed",
+    "message": "The office will be closed next Monday for a public holiday.",
+    "date": "2025-07-19T14:20:00Z",
+    "type": "info"
+  },
+  {
+    "id": 7,
+    "title": "New Joiner Announcement",
+    "message": "Please welcome Sarah to the marketing team!",
+    "date": "2025-07-18T09:00:00Z",
+    "type": "info"
+  },
+  {
+    "id": 8,
+    "title": "System Performance Improved",
+    "message": "We've optimized dashboard loading times by 35%.",
+    "date": "2025-07-17T16:30:00Z",
+    "type": "update"
+  },
+  {
+    "id": 9,
+    "title": "Weekly Report Due",
+    "message": "Submit your team reports by Thursday EOD.",
+    "date": "2025-07-16T07:45:00Z",
+    "type": "reminder"
+  },
+  {
+    "id": 10,
+    "title": "New Poll: Team Retreat",
+    "message": "Vote for your preferred retreat location by Friday.",
+    "date": "2025-07-15T10:00:00Z",
+    "type": "engagement"
+  },
+  {
+    "id": 11,
+    "title": "Lunch & Learn Session",
+    "message": "Join us this Wednesday for a talk on UX Design trends.",
+    "date": "2025-07-14T12:30:00Z",
+    "type": "event"
+  },
+  {
+    "id": 12,
+    "title": "Quarterly Feedback Open",
+    "message": "Feedback portal is now open. Please submit before July 31st.",
+    "date": "2025-07-13T08:00:00Z",
+    "type": "reminder"
+  },
+  {
+    "id": 13,
+    "title": "Downtime Averted",
+    "message": "Early detection helped avoid a major crash. Kudos to the devops team!",
+    "date": "2025-07-12T17:15:00Z",
+    "type": "info"
+  },
+  {
+    "id": 14,
+    "title": "Updated Code of Conduct",
+    "message": "Please review the updated company policies on internal communication.",
+    "date": "2025-07-11T09:00:00Z",
+    "type": "alert"
+  },
+  {
+    "id": 15,
+    "title": "New Integration: Google Drive",
+    "message": "You can now link your Google Drive files directly in resources.",
+    "date": "2025-07-10T14:45:00Z",
+    "type": "update"
+  }
+]

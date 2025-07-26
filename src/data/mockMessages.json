@@ -1,0 +1,17 @@
+[
+  { "id": 1, "sender": "Alice", "text": "Hey there!", "timestamp": "2025-07-24T10:00:00Z", "viewed": false},
+  { "id": 2, "sender": "Bob", "text": "Hello! How’s your morning?", "timestamp": "2025-07-24T10:01:00Z", "viewed": false },
+  { "id": 3, "sender": "John", "text": "Still working on the V-Office dashboard?", "timestamp": "2025-07-24T10:02:30Z", "viewed": false},
+  { "id": 4, "sender": "Martin", "text": "Are you using Tailwind?", "timestamp": "2025-07-24T10:03:00Z", "viewed": false },
+  { "id": 5, "sender": "Silvy", "text": "Tailwind + React = 💪", "timestamp": "2025-07-24T10:03:45Z", "viewed": true },
+  { "id": 6, "sender": "Juscar", "text": "Let me know if you need help.", "timestamp": "2025-07-24T10:04:20Z", "viewed": true },
+  { "id": 7, "sender": "Chris", "text": "Will do. What are you working on?", "timestamp": "2025-07-24T10:05:00Z", "viewed": true },
+  { "id": 8, "sender": "Alpha", "text": "Just writing some mock APIs for testing.", "timestamp": "2025-07-24T10:06:15Z", "viewed": true },
+  { "id": 9, "sender": "Nilo", "text": "Mock APIs are a lifesaver!", "timestamp": "2025-07-24T10:07:00Z", "viewed": true },
+  { "id": 10, "sender": "Jasmine", "text": "Definitely. Makes frontend dev so much easier.", "timestamp": "2025-07-24T10:08:10Z", "viewed": true },
+  { "id": 11, "sender": "Esther", "text": "Agreed! Anyway, coffee break?", "timestamp": "2025-07-24T10:09:00Z", "viewed": true },
+  { "id": 12, "sender": "Gladis", "text": "Yes please! Meet in 5?", "timestamp": "2025-07-24T10:09:30Z", "viewed": true },
+  { "id": 13, "sender": "Vicky", "text": "Perfect. ☕️", "timestamp": "2025-07-24T10:10:00Z", "viewed": true },
+  { "id": 14, "sender": "Bob", "text": "Don’t forget your badge 😄", "timestamp": "2025-07-24T10:10:30Z", "viewed": true },
+  { "id": 15, "sender": "Lee", "text": "Haha! Thanks for the reminder.", "timestamp": "2025-07-24T10:11:00Z", "viewed": true }
+]

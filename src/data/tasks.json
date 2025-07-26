@@ -1,0 +1,17 @@
+[
+  { "id": 1, "title": "Prepare team meeting agenda", "assignedTo": "Alice", "status": "pending", "dueDate": "2025-07-25" },
+  { "id": 2, "title": "Update project roadmap", "assignedTo": "Bob", "status": "in-progress", "dueDate": "2025-07-27" },
+  { "id": 3, "title": "Review Q3 marketing campaign", "assignedTo": "Clara", "status": "completed", "dueDate": "2025-07-20" },
+  { "id": 4, "title": "Refactor user authentication logic", "assignedTo": "Daniel", "status": "in-progress", "dueDate": "2025-07-28" },
+  { "id": 5, "title": "Design new dashboard UI", "assignedTo": "Eve", "status": "pending", "dueDate": "2025-07-30" },
+  { "id": 6, "title": "Test notification feature", "assignedTo": "Frank", "status": "completed", "dueDate": "2025-07-22" },
+  { "id": 7, "title": "Fix mobile responsiveness bugs", "assignedTo": "Grace", "status": "pending", "dueDate": "2025-07-29" },
+  { "id": 8, "title": "Write weekly progress report", "assignedTo": "Hassan", "status": "in-progress", "dueDate": "2025-07-25" },
+  { "id": 9, "title": "Deploy backend updates", "assignedTo": "Ivy", "status": "pending", "dueDate": "2025-07-26" },
+  { "id": 10, "title": "Set up AWS monitoring", "assignedTo": "Jon", "status": "pending", "dueDate": "2025-08-01" },
+  { "id": 11, "title": "Document API endpoints", "assignedTo": "Karen", "status": "in-progress", "dueDate": "2025-07-27" },
+  { "id": 12, "title": "Organize design files", "assignedTo": "Leo", "status": "completed", "dueDate": "2025-07-23" },
+  { "id": 13, "title": "Verify SSL certificate renewal", "assignedTo": "Mira", "status": "pending", "dueDate": "2025-07-28" },
+  { "id": 14, "title": "Conduct user feedback interviews", "assignedTo": "Nathan", "status": "pending", "dueDate": "2025-07-31" },
+  { "id": 15, "title": "Migrate chat service to Socket.io v4", "assignedTo": "Olive", "status": "in-progress", "dueDate": "2025-08-02" }
+]
