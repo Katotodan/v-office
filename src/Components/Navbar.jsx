@@ -68,7 +68,7 @@ export const Navbar = () => {
     
   return (
     <header className='flex justify-between h-20 bg-sky-50 items-center px-4 text-xl lg:px-8 xl:px-16 xl:gap-10
-    dark:bg-[#072841] dark:text-white overflow-x-hidden'
+    dark:bg-[#072841] dark:text-white overflow-clip'
       role="navigation"
       aria-label="Main Navigation"
     >

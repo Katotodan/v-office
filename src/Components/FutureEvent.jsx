@@ -14,7 +14,7 @@ export const FutureEvent = () => {
                         </div>
                     </div>
                     <div className='flex-1'>
-                        <div className='w-full flex justify-between items-center'>
+                        <div className='w-full flex justify-between items-center flex-wrap gap-2'>
                             <div className='truncate'><FaMapLocation className='inline'/> {event.location}</div>
                             <div className='truncate'>
                                 {new Date(event.date).toLocaleString('en-US', 
