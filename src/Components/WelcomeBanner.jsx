@@ -11,16 +11,24 @@ export const WelcomeBanner = () =>{
         const timer = setTimeout(() => setAnimate(true), 100); // Delay for smooth entrance
         return () => clearTimeout(timer);
     }, []);
+    const [loadedMobile, setLoadedMobile] = useState(false);
+    const [loadedTablet, setLoadedTablet] = useState(false);
+    const [loadedPC, setLoadedPC] = useState(false);
+    const [loadedXL, setLoadedXL] = useState(false);
     
     return(
         <div className="py-10 md:px-5 md:py-20 relative" role="region" aria-labelledby="welcome-heading">
-            <img src={mobileImg} alt="Backgroud img" className="absolute top-0 left-0 w-full h-full object-cover z-0 md:hidden"/>
-            <img src={tabletImg} alt="Backgroud img" className="absolute top-0 left-0 w-full h-full object-cover z-0 
-            hidden md:block lg:hidden"/>
-            <img src={pcImg} alt="Backgroud img" className="absolute top-0 left-0 w-full h-full object-cover z-0
-            hidden lg:block xl:hidden"/>
-            <img src={largerBannerImg} alt="Backgroud img" className="absolute top-0 left-0 w-full h-full object-cover z-0
-            hidden xl:block"/>
+            <img src={mobileImg} alt="Backgroud img" onLoad={() => setLoadedMobile(true)}
+            className={`absolute top-0 left-0 w-full h-full object-cover z-0 md:hidden ${loadedMobile ? 'opacity-100' : 'opacity-0'}`}/>
+            <img src={tabletImg} alt="Backgroud img" onLoad={() => setLoadedTablet(true)}
+            className={`absolute top-0 left-0 w-full h-full object-cover z-0 
+            hidden md:block lg:hidden ${loadedTablet ? 'opacity-100' : 'opacity-0'}`}/>
+            <img src={pcImg} alt="Backgroud img" onLoad={() => setLoadedPC(true)}
+            className={`absolute top-0 left-0 w-full h-full object-cover z-0
+            hidden lg:block xl:hidden ${loadedPC ? 'opacity-100' : 'opacity-0'}`}/>
+            <img src={largerBannerImg} alt="Backgroud img" onLoad={() => setLoadedXL(true)}
+            className={`absolute top-0 left-0 w-full h-full object-cover z-0
+            hidden xl:block ${loadedXL ? 'opacity-100' : 'opacity-0'}`}/>
             <div className="relative ">     
                 <h1 className="text-2xl md:text-4xl font-bold text-center text-white">
                     <span className="inline bg-blue-300 text-white px-2 py-1 rounded">

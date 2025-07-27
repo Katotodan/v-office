@@ -6,10 +6,7 @@ import { Footer } from '../Components/Footer';
 
 export default function Dashboard() {
   return (
-    <div className="main-container min-h-screen flex flex-col bg-gray-50 text-gray-900">
-        <Navbar />
-
-      <main className="flex-grow dark:bg-neutral-900 dark:text-white">
+      <div>
         <section aria-labelledby="welcome-heading">
           <WelcomeBanner />
         </section>
@@ -19,9 +16,6 @@ export default function Dashboard() {
           </section>
           <DashboardCards />
         </div>
-      </main>
-
-      <Footer />
-    </div>
+      </div>
   );
 }

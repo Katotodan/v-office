@@ -2,7 +2,7 @@ import { Link } from "react-router";
 export const Footer = () => {
     return (
         <footer
-            className="bg-blue-100 py-6 text-center text-sm text-gray-700 text-xl dark:bg-[#072841] dark:text-white"
+            className="bg-blue-100 py-6 text-center text-sm text-gray-700 text-xl dark:bg-[#072841] dark:text-white h-30"
             role="contentinfo"
             aria-label="Footer"
             >
