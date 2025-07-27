@@ -46,14 +46,23 @@ export const Navbar = () => {
 
     // Hide the main elements when the menu is open on mobile
     useEffect(() => {
-        if (isMobile && isMenuOpen) {
-            document.body.style.overflow = 'hidden'; // Prevent scrolling
-        } else {
-            document.body.style.overflow = 'auto'; // Enable scrolling
-        }
-        return () => {
-            document.body.style.overflow = 'auto'; // Reset on unmount
+        const lockScroll = () => {
+            document.body.style.overflow = 'hidden';
+            document.body.style.height = '100vh';
         };
+
+        const unlockScroll = () => {
+            document.body.style.overflow = 'auto';
+            document.body.style.height = 'auto';
+        };
+
+        if (isMobile && isMenuOpen) {
+            lockScroll();
+        } else {
+            unlockScroll();
+        }
+
+        return () => unlockScroll(); // Clean up on unmount or dependency change
     }, [isMobile, isMenuOpen]);
 
     const toggleMenu = () => { 
@@ -68,7 +77,7 @@ export const Navbar = () => {
     
   return (
     <header className='flex justify-between h-20 bg-sky-50 items-center px-4 text-xl lg:px-8 xl:px-16 xl:gap-10
-    dark:bg-[#072841] dark:text-white overflow-clip relative w-full'
+    dark:bg-[#072841] dark:text-white overflow-x-clip relative w-full'
       role="navigation"
       aria-label="Main Navigation"
     >
@@ -82,10 +91,10 @@ export const Navbar = () => {
 
         {/* Right Section */}
 
-        <nav className='lg:flex lg:flex-row-reverse lg:relative lg:gap-4' role="menubar"> 
+        <nav className='lg:flex lg:flex-row-reverse lg:gap-4' role="menubar"> 
             {/* Top Icons */}
             <ul className='flex items-center gap-4'> 
-                <li className="relative group">
+                <li className="md:relative group">
                     <NotificationDropdown />
                 </li>
                 {/* User Avatar */}
